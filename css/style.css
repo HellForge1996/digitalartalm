@@ -2,14 +2,7 @@
     body{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    .center {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 18px;
-      }
-    iframe{
+    iframe {
         text-align: center;
     }
     P {
@@ -33,7 +26,7 @@
         margin-bottom: 90px;
         margin-top: 90px;
     }
-    h5{
+    h5 {
         padding: 0px 18vw;
         position: relative;
         font-size: 5px;
@@ -61,19 +54,10 @@
         background: -webkit-linear-gradient(#887866, #704922);
         text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
     }
-    dlef {
-        white-space: nowrap;
-        text-align: left;
-    }
-    drig {
-        white-space: nowrap;
-        text-align: right;
-    }
-    h4{
-    
+    h4 {
         font-size: 3px;
         line-height: 115%;
-        text-align: left;
+        text-align: center;
         font-family: "Reaver",serif;
         font-weight: 700;
         z-index: 10;
@@ -81,7 +65,7 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
-    h3{
+    h3 {
         display: block;
         color: #fff;
         font-weight: 400;
@@ -105,10 +89,6 @@
         text-align: center;
         width: 320px;
         height: 200px;
-    }
-    h5 {
-        text-align: left;
-        font-size: 1px;
     }
 }
 
