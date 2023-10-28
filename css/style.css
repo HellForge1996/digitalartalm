@@ -148,14 +148,6 @@
         background: -webkit-linear-gradient(#887866, #704922);
         text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
     }
-    dlef {
-        white-space: nowrap;
-        text-align: left;
-    }
-    drig {
-        white-space: nowrap;
-        text-align: right;
-    }
     h4{
     
         font-size: 40px;
