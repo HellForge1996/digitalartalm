@@ -1,2 +1,2 @@
-# digitalartalm
-Сайт для фестиваля Almet digital art
+# iipproject
+Итоговый индивидуальный проект за 9 класс 
