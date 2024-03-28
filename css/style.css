@@ -39,6 +39,7 @@ h5{
     margin-top: 20px;
 }
 h2 {
+    max-width: 100%;
     display: block;
     color: #fff;
     font-weight: 400;
@@ -52,14 +53,6 @@ h2 {
     text-align: center;
     background: -webkit-linear-gradient(#887866, #704922);
     text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
-}
-dlef {
-    white-space: nowrap;
-    text-align: left;
-}
-drig {
-    white-space: nowrap;
-    text-align: right;
 }
 h4{
 
@@ -87,4 +80,12 @@ h3{
     text-align: center;
     background: -webkit-linear-gradient(#414141, #6b6b6b);
     text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+}
+img {
+    max-width: 100%;
+    display: block;
+  }
+iframe {
+    max-width: 100%;
+    display: block;
 }
