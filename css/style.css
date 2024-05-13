@@ -1,91 +1,232 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-iframe{
-    text-align: center;
-}
-P {
-     text-align: center 
-}
-h1 {
-    font-size: clamp(18px,4vw,40px);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    background: -webkit-linear-gradient(#e5ff00, #ff7b00);
-    padding: 0px 18vw;
-    position: relative;
-    font-size: 60px;
-    line-height: 140%;
-    text-align: center;
-    font-family: "Reaver",serif;
-    font-weight: 700;
-    z-index: 100;
-    text-shadow: 5px 5px 10px #000, 5px 5px 5px #000;
-    margin-bottom: 90px;
-    margin-top: 90px;
-}
-h5{
-    padding: 0px 18vw;
-    position: relative;
-    font-size: 40px;
-    line-height: 115%;
-    text-align: center;
-    font-family: "Reaver",serif;
-    font-weight: 700;
-    z-index: 10;
-    text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-h2 {
-    max-width: 100%;
-    display: block;
-    color: #fff;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 31px;
-    margin-bottom: 4px;
-    font-size: clamp(18px,3vw,40px);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    background: -webkit-linear-gradient(#887866, #704922);
-    text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
-}
-h4{
+@media screen and (max-width : 615px) {
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    section {
+        float: left;
+        margin: 0 1.5%;
+        width: 30%;
+    }
+        .grid,
+    .col-1-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .container,
+    .grid {
+    margin: 0 auto;
+    width: 960px;
+    }
+    .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
 
-    font-size: 40px;
-    line-height: 115%;
-    text-align: left;
-    font-family: "Reaver",serif;
-    font-weight: 700;
-    z-index: 10;
-    text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    aside {
+        float: right;
+    }
+    li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    iframe {
+        text-align: center;
+    }
+    P {
+         text-align: left
+    }
+    h1 {
+        font-size: clamp(2px,4vw,5px);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        background: -webkit-linear-gradient(#e5ff00, #ff7b00);
+        padding: 0px 18vw;
+        position: relative;
+        font-size: 10px;
+        line-height: 140%;
+        text-align: center;
+        font-family: "Reaver",serif;
+        font-weight: 700;
+        z-index: 100;
+        text-shadow: 4px 4px 8px #000, 4px 4px 4.5px #000;
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+    h5 {
+        padding: 0px 14vw;
+        position: relative;
+        font-size: 4px;
+        line-height: 115%;
+        text-align: left;
+        font-family: "Reaver",serif;
+        font-weight: 50;
+        z-index: 8;
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h2 {
+        display: block;
+        color: #fff;
+        font-weight: 200;
+        font-size: 6px;
+        line-height: 26px;
+        margin-bottom: 4px;
+        font-size: clamp(8px,2vw,10px);
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        background: -webkit-linear-gradient(#887866, #704922);
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+    }
+    h4 {
+        font-size: 3px;
+        line-height: 115%;
+        text-align: center; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        z-index: 10;
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h3 {
+        display: block;
+        color: #fff;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 31px;
+        margin-bottom: 4px;
+        font-size: clamp(18px,3vw,20px);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        background: -webkit-linear-gradient(#414141, #6b6b6b);
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+    }
+    img {
+        text-align: left;
+        width: 200px;
+        height: 200px;
+    }
+    iframe {
+        text-align: center;
+        width: 320px;
+        height: 200px;
+    }
 }
-h3{
-    display: block;
-    color: #fff;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 31px;
-    margin-bottom: 4px;
-    font-size: clamp(18px,3vw,20px);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    background: -webkit-linear-gradient(#414141, #6b6b6b);
-    text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
-}
-img {
-    max-width: 100%;
-    display: block;
-  }
-iframe {
-    max-width: 100%;
-    display: block;
+
+@media screen and (max-width : 2560px) {
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    section {
+        float: left;
+        margin: 0 1.5%;
+        width: 30%;
+    }
+        .grid,
+    .col-1-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .container,
+    .grid {
+    margin: 0 auto;
+    width: 960px;
+    }
+    .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    aside {
+        float: right;
+    }
+    iframe{
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    P {
+         text-align: center 
+    }
+    h1 {
+        font-size: clamp(18px,4vw,20px);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        background: -webkit-linear-gradient(#e5ff00, #ff7b00);
+        padding: 0px 18vw;
+        position: relative;
+        font-size: 60px;
+        line-height: 100%;
+        text-align: center;
+        font-family: "Reaver",serif;
+        font-weight: 700;
+        z-index: 100;
+        text-shadow: 5px 5px 10px #000, 5px 5px 5px #000;
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+    h5{
+        padding: 0px 18vw;
+        position: relative;
+        font-size: 400px;
+        line-height: 115%;
+        text-align: center;
+        font-family: "Reaver",serif;
+        font-weight: 700;
+        z-index: 10;
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h2 {
+        display: block;
+        color: #fff;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 31px;
+        margin-bottom: 4px;
+        font-size: clamp(18px,3vw,40px);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        background: -webkit-linear-gradient(#887866, #704922);
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+    }
+    h4{
+    
+        font-size: 40px;
+        line-height: 115%;
+        text-align: left;
+        font-family: "Reaver",serif;
+        font-weight: 700;
+        z-index: 10;
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h3{
+        display: block;
+        color: #fff;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 31px;
+        margin-bottom: 4px;
+        font-size: clamp(18px,3vw,20px);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        background: -webkit-linear-gradient(#414141, #6b6b6b);
+        text-shadow: 0px 0px 10px #000, 0px 0px 5px #000;
+    }
+    
 }
